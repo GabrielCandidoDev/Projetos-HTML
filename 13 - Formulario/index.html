@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title> Curso de HTML </title>
+        <meta name="author" content="Gabriel Cãndido">
+        <meta name="description" content="Curso de html para desenvolvimento web">
+        <meta name="keywords" content="www, html, css, php, mysql, sites, web, desenvolvimento">
+
+    </head>
+
+    <body>
+
+    <fieldset>
+        <form method="#" action="#">
+            <h1>Formulario de cadastro:</h1><br>
+
+            Dados pessoais <br>
+            <input type="text" name="nome" placeholder="Nome completo" required><br><br>
+            <input type="number" name="idade" min="18" max="100" placeholder="idade"><br><br>
+            <input type="email" name="email" placeholder="E-mail" autocomplete="off"><br><br>
+            <input type="password" name="pass" placeholder="Senha"><br><br>
+            <input type="password" name="confpass" placeholder="Confirme a senha"><br><br>
+            <input type="text" name="telefone" placeholder="Telefone" autocomplete="off"><br><br>
+
+            Sexo <br>
+            <input type="radio" name="sexo" value="Homem">Homem
+            <input type="radio" name="sexo" value="Mulher">Mulher
+            <br><br>
+
+            Estado <br>
+            <input type="checkbox" name="estado" value="SP">SP
+            <input type="checkbox" name="estado" value="MG">MG
+            <br><br>
+
+            Foto <br>
+            <input type="file" name="foto"><br><br>
+            
+            Qual curso deseja?<br>
+            <input name="curso" list="lista">
+
+            <datalist id="lista">
+                <option value="html"></option>
+                <option value="CSS"></option>
+                <option value="PHP"></option>
+            </datalist>
+
+            <br><br><br>
+            <button type="submit"> Enviar dados </button>
+        </form>
+    </fieldset>
+
+    </body>
+</html>
+
